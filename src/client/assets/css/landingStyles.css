@@ -1,0 +1,37 @@
+#video_background {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+}
+
+#video_background {
+	position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    /* This puts the video BEHIND the div, optional */
+    z-index: -1;
+	/* These two properties center the video, optional */
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#video_pattern {
+    position: fixed;
+    opacity: 0.6;
+    background-color: rgba(0,0,0,.45);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
